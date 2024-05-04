@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/readme/fonts/Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/readme/fonts/Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/readme/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/readme/fonts/Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 42px;
+}
+h4 {
+    font-size: 40px;
+}
+
+h2, h3, h4 {
+    font-weight: 200;
+}
+span {
+    font-weight: 900;
+}
+p {
+    font-size: 15.57;
+    line-height: 28px;
+}
+a, input, textarea {
+    font-size: 16.57;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.grid-item-bg {
+    background-image: url("/img/bg.png");
+}
+.grid-item-gray {
+    background-color: #f3f3f3;
+}
+.grid-item-blue {
+    background-image: url("/img/bg-blue.png");
+}
+.grid-item-bg, .grid-item-blue, .grid-item-gray, .grid-item-beige, 
+.grid-item-black, .grid-item-human, .grid-item-green {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-item-beige {
+    background-image: url("/img/bg-blue.png");
+}
+.grid-item-black {
+    background-image: url("/img/bg-black.png");
+}
+.grid-item-human {
+    background-image: url("/img/bg-human.png");
+}
+.grid-item-green {
+
+    background-image: url("/img/bg-green.png");
+}
+
