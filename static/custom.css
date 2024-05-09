@@ -125,12 +125,15 @@ a {
 }
 .grid-item-bg {
     background-image: url(images/bg.png);
+    grid-area: a;
 }
 .grid-item-gray {
     background-color: #f3f3f3;
+    grid-area: b;
 }
 .grid-item-blue {
     background-image: url(images/bg-blue.png);
+    grid-area: c;
 }
 .ablack {
     color: #000;
@@ -160,16 +163,20 @@ a {
 
 .grid-item-beige {
     background-image: url(images/bg-blutoth.png);
+    grid-area: d;
 }
 .grid-item-black {
     background-image: url(images/bg-black.png);
+    grid-area: e;
 }
 .grid-item-human {
     background-image: url(images/bg-human.png);
+    grid-area: f;
 }
 .grid-item-green {
 
     background-image: url(images/bg-green.png);
+    grid-area: g;
 }
 .grid-item-blue, .grid-item-black, .grid-item-human, 
 .grid-item-green {
@@ -189,7 +196,7 @@ a {
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
     width: 25%;
-    gap 10px;
+    gap: 10px;
 }
 .socnet .sn.fb {
     background: url(images/icons/fb.png) no-repeat center center;
@@ -214,5 +221,37 @@ a {
     background-repeat: no-repeat;
     margin-bottom: 25px;
 }
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "a a a a a a b b b" 
+    "c c c c d d d d d"
+    "c c c c e e e e e"
+    "f f f g g g g g g";
+}
+/*.grid-item-bg {
+    grid-area: a;
+}
+.grid-item-gray {
+
+    grid-area: b;
+}
+.grid-item-blue {
+    grid-area: c;
+}
+.grid-item-beige {
+    grid-area: d;
+}
+.grid-item-black {
+    grid-area: e;
+}
+.grid-item-human {
+    grid-area: f;
+}
+.grid-item-green {
+    grid-area: g;
+}*/
+
+
 
 
