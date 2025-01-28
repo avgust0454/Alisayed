@@ -63,6 +63,7 @@ p {
     width: 100%;
     min-height: 124px;
     аfont-family: 'Roboto';
+    color: #fff;
 }
 .forms input, .forms textarea {
     background-color: transparent;
